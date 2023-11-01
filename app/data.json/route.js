@@ -324,7 +324,7 @@ export async function GET() {
         },
         {
             id: 'empresarial',
-            title: 'ALQUILER ZONAS COORPORATIVAS(FECAS ESPECIALES)',
+            title: 'ALQUILER ZONAS COORPORATIVAS(FECHAS ESPECIALES)',
             subtitle:'Espacios versátiles para tus eventos.',
             items: ['Capacitaciones',
                 'Ley 50',
@@ -335,51 +335,43 @@ export async function GET() {
                 description: '¿Necesitas un espacio para tus eventos corporativos o celebraciones especiales? Tenemos la solución. Ofrecemos alquiler de espacios para capacitaciones, eventos relacionados con la Ley 50, días del trabajador, días de la familia, celebraciones de amor y amistad, cumpleaños y más. Nuestro equipo de profesionales te ayudará a organizar tu evento y a hacer que sea un éxito.',
             gallery: [
                 {
-                    img: '/Images/piscina1.jpg',
+                    img: '/Images/eventos1.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina2.jpg',
+                    img: '/Images/eventos2.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina3.jpg',
+                    img: '/Images/eventos3.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina4.jpg',
+                    img: '/Images/eventos4.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina5.jpg',
+                    img: '/Images/eventos5.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina6.jpg',
+                    img: '/Images/eventos6.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina7.jpg',
+                    img: '/Images/eventos7.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina8.jpg',
+                    img: '/Images/eventos8.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina9.jpg',
+                    img: '/Images/eventos9.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina10.jpg',
-                    alt: 'piscina'
-                },
-                {
-                    img: '/Images/piscina11.jpg',
-                    alt: 'piscina'
-                },
-                {
-                    img: '/Images/piscina12.jpg',
+                    img: '/Images/eventos10.jpg',
                     alt: 'piscina'
                 },
 

@@ -3,7 +3,7 @@ import Servicios from '../components/Servicios'
 import { servicios } from '../data/data'
 
 async function getServicio() {
-    const servicios = await fetch('http://localhost:3000/data.json');
+    const servicios = await fetch('http://localhost:3000/data.json', {cache: 'no-cache'});
     const data = await servicios.json();
     return data;
 }

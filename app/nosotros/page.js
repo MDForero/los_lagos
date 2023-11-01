@@ -10,7 +10,7 @@ export default function page() {
         <div className='flex flex-col mt-24 gap-24 items-center justify-center max-w-7xl '>
             {nosotros.map((item, index) => <>
             <div key={index} className='flex flex-row gap-12 even:md:flex-row-reverse flex-wrap items-center justify-center max-w-7xl w-full'>
-                <Image src={item.img} width={500} height={500} className='rounded-full w-[500px] h-[500px]' />
+                <Image loading='lazy' src={item.img} width={500} height={500} className='rounded-full w-[500px] h-[500px]' />
                 <div className='md:w-2/5'>
                     <h1 className='text-3xl font-bold text-center'>{item.title}</h1>
                     <p className='text-justify'>{item.text}</p>

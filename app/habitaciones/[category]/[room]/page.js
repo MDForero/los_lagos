@@ -28,9 +28,9 @@ export default async function Page({ params }) {
     console.log(roomData)
         return <>
             <main className="h-[800px] w-full relative">
-                <Image src={roomData?.gallery[0].img} alt={roomData?.gallery[0].alt} className="w-full h-full object-cover" width={0} height={0} />
+                <Image loading='lazy' src={roomData?.gallery[0].img} alt={roomData?.gallery[0].alt} className="w-full h-full object-cover" width={0} height={0} />
                 <div className="absolute top-0 bottom-0 right-0 left-0 flex flex-col justify-center items-center bg-black/30">
-                    <Image src='/logo-dark.png' width={0} height={0} className='w-52 h-52' />
+                    <Image loading='lazy' src='/logo-dark.png' width={0} height={0} className='w-52 h-52' />
                     <p className="text-white lg:text-5xl sm:text-xl font-bold capitalize"><span className="text-white font-bold capitalize">{roomData?.title.toLocaleLowerCase()}</span> | <Link href={`/habitaciones/${category}`} className="text-white hover:text-blue-lagos font-bold capitalize">Cabaña {category}</Link></p>
                 </div>
             </main>
@@ -67,10 +67,10 @@ export default async function Page({ params }) {
                         </div>
                     </div>
                     <div className="flex items-center gap-8 p-8 lg:p-24">
-                        <Image src={roomData?.gallery[0].img} className="w-1/2 h-full object-cover rounded-lg" width={0} height={0} alt={roomData?.gallery[1].alt} />
+                        <Image loading='lazy' src={roomData?.gallery[0].img} className="w-1/2 h-full object-cover rounded-lg" width={0} height={0} alt={roomData?.gallery[1].alt} />
                         <div>
-                            <Image src={roomData?.gallery[1].img} className="h-44 w-full object-cover mb-8 rounded-lg" width={0} height={0} alt={roomData?.gallery[0].alt} />
-                            <Image src={roomData?.gallery[2].img} className="h-44 w-full object-cover rounded-lg" width={0} height={0} alt={roomData?.gallery[2].alt} />
+                            <Image loading='lazy' src={roomData?.gallery[1].img} className="h-44 w-full object-cover mb-8 rounded-lg" width={0} height={0} alt={roomData?.gallery[0].alt} />
+                            <Image loading='lazy' src={roomData?.gallery[2].img} className="h-44 w-full object-cover rounded-lg" width={0} height={0} alt={roomData?.gallery[2].alt} />
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ export const nosotros = [
     {
         title: 'Misión',
         text: 'Ser líder en hospitalidad en la región; con los más altos estándares de servicio y amabilidad, siendo una organización estable, innovadora y con espacios de confort para el descanso, que vela por el sostenimiento y la reinversión en la propiedad, la protección del entorno ambiental y el desarrollo permanente de nuestro talento humano y la satisfacción de nuestros clientes.',
-        img: '/Images/_DSC9954.jpg'
+        img: '/Images/_DSC9955.jpg'
     },
     {
         title: 'Visión',

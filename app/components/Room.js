@@ -24,10 +24,10 @@ const Room = ({room}) => {
                     </div>
                 </div>
                 <div className="flex items-center gap-8  p-8 lg:p-24">
-                    <Image width={0} height={0} src={room.gallery[1].img} className="w-1/2 rounded-lg" alt="Tree" />
+                    <Image loading='lazy' width={0} height={0} src={room.gallery[1].img} className="w-1/2 rounded-lg" alt="Tree" />
                     <div>
-                        <Image width={0} height={0} src={room.gallery[0].img} className="w-full h-1/2 object-cover  mb-8 rounded-lg" alt="Tree" />
-                        <Image width={0} height={0} src={room.gallery[2].img} className="w-full h-1/2 object-cover rounded-lg" alt="Tree" />
+                        <Image loading='lazy' width={0} height={0} src={room.gallery[0].img} className="w-full h-1/2 object-cover  mb-8 rounded-lg" alt="Tree" />
+                        <Image loading='lazy' width={0} height={0} src={room.gallery[2].img} className="w-full h-1/2 object-cover rounded-lg" alt="Tree" />
                     </div>
                 </div>
             </div>

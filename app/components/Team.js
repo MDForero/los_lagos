@@ -15,7 +15,7 @@ const Team = ({data}) => {
                     {data.map((item, index) => <div key={index} className="p-4">
                         <div className="flex-col  flex justify-center items-center">
                             <div className="flex-shrink-0">
-                                <Image alt={item.alt} src={item.img} width={0} height={0} className="relative block mx-auto object-cover rounded-full h-20 w-20 " />
+                                <Image loading='lazy' alt={item.alt} src={item.img} width={0} height={0} className="relative block mx-auto object-cover rounded-full h-20 w-20 " />
                             </div>
                             <div className="mt-2 text-center flex flex-col">
                                 <span className="text-lg font-medium text-gray-600 ">

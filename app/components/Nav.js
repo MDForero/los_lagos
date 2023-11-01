@@ -31,17 +31,17 @@ const Nav = ({ nav }) => {
                 <ul className='hidden lg:flex py-4 z-50 gap-8 '>
                     {nav.slice(0, 3).map((item, index) => {
                         return (
-                            <li key={index} className={(fixed ? 'inline-block px-6 py-3  font-bold text-center uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-blue-lagos to-green-lagos leading-pro  ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-white hover:shadow-lg active:opacity-85 ' : 'inline-block px-6 py-3 font-bold text-center text-white uppercase align-middle ') + (path.slice(0, -1) === item.href ? "text-white" : "text-gray-600")}>
+                            <li key={index} className={(fixed ? 'inline-block px-6 py-3  font-bold text-center uppercase align-middle transition-all rounded-lg cursor-pointer bg-green-lagos leading-pro  ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-orange-lagos hover:text-white hover:shadow-lg active:opacity-85 ' : 'inline-block px-6 py-3 font-bold text-center text-white uppercase align-middle ') + (path.slice(0, -1) === item.href ? "text-white" : "text-gray-600")}>
                                 <Link href={item.href}>{item.text}</Link>
                             </li>
                         )
                     })}
                     <li className={' rounded-full flex justify-center items-center mx-auto mt-2 w-44 ' + (fixed ? '' : 'bg-blue-lagos')}>
-                        <Image src='/IdentificadorHorizontal.png' width={150} height={0} className='w-44' />
+                        <Image loading='lazy' src='/IdentificadorHorizontal.png' width={150} height={0} className='w-44' />
                     </li>
                     {nav.slice(3).map((item, index) => {
                         return (
-                            <li key={index} className={(fixed ? 'inline-block px-6 py-3  font-bold text-center uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-blue-lagos to-green-lagos leading-pro ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-white hover:shadow-lg active:opacity-85 ' : 'inline-block px-6 py-3 font-bold text-center text-white uppercase align-middle ') + (path.slice(0, -1) === item.href ? "text-white" : "text-gray-600")}>
+                            <li key={index} className={(fixed ? 'inline-block px-6 py-3  font-bold text-center uppercase align-middle transition-all rounded-lg cursor-pointer bg-green-lagos leading-pro ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-orange-lagos hover:text-white hover:shadow-lg active:opacity-85 ' : 'inline-block px-6 py-3 font-bold text-center text-white uppercase align-middle ') + (path.slice(0, -1) === item.href ? "text-white" : "text-gray-600")}>
                                 <Link href={item.href}>{item.text}</Link>
                             </li>
                         )
@@ -64,7 +64,7 @@ const Nav = ({ nav }) => {
                         <div className={`bars ${fixed ? 'bg-white' : 'bg-blue-lagos'}`} id="bar3"></div>
                     </label>
                     <div className={' rounded-full flex justify-center items-center mx-auto mt-2  ' + (fixed ? '' : 'bg-white')}>
-                        <Image src='/IdentificadorHorizontal.png' width={150} height={150} />
+                        <Image loading='lazy' src='/IdentificadorHorizontal.png' width={150} height={150} />
                     </div>
                 </div>
             </div>

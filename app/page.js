@@ -53,12 +53,12 @@ export default function Home() {
                 <div className=" mt-10 lg:-mx-4 relative-20 lg:mt-0 lg:col-start-1">
                   <div className=" space-y-4">
                     <div className="flex items-end justify-center space-x-4 lg:justify-start">
-                      <Image className="w-32 rounded-lg shadow-lg md:w-56" width="200" height={0} src="/Images/piscina1.jpg" alt="1" />
-                      <Image className="w-40 rounded-lg shadow-lg md:w-64" width="260" height={0} src="/Images/bar1.jpg" alt="2" />
+                      <Image loading='lazy' className="w-32 rounded-lg shadow-lg md:w-56" width="200" height={0} src="/Images/piscina1.jpg" alt="1" />
+                      <Image loading='lazy' className="w-40 rounded-lg shadow-lg md:w-64" width="260" height={0} src="/Images/bar1.jpg" alt="2" />
                     </div>
                     <div className="flex items-start justify-center ml-12 space-x-4 lg:justify-start">
-                      <Image className="w-24 rounded-lg shadow-lg md:w-40" width="170" height={0} src="/Images/juegos1.jpg" alt="3" />
-                      <Image className="w-32 rounded-lg shadow-lg md:w-56" width="200" height={0} src="/Images/eventos1.jpg" alt="4" />
+                      <Image loading='lazy' className="w-24 rounded-lg shadow-lg md:w-40" width="170" height={0} src="/Images/juegos1.jpg" alt="3" />
+                      <Image loading='lazy' className="w-32 rounded-lg shadow-lg md:w-56" width="200" height={0} src="/Images/eventos1.jpg" alt="4" />
                     </div>
                   </div>
                 </div>
@@ -66,11 +66,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <DivImg data={{img:'/Images/img1.JPG'}}/>
+        <DivImg data={{img:'/Images/eventos9.jpg'}}/>
         <section id='featured'>
           <Services />
         </section>
-        <DivImg data={{img:'/Images/_DSC9951.jpg'}}/>
+        <DivImg data={{img:'/Images/_DSC9833.jpg'}}/>
         <section id='faq'>
           <Faq data={faq} />
         </section>

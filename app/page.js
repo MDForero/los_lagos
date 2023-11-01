@@ -32,7 +32,7 @@ export default function Home() {
                     Un lugar para todos
                   </h4>
                   <p className="mt-4 text-lg leading-6 text-gray-500 ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  Somos una empresa de legado familiar, en donde trabajamos  incansablemente para brindar a nuestros clientes espacios agradables en el que puedan vivir experiencias diferentes, rodeados de naturaleza y con una arquitectura especialmente diseñada para mantener la esencia de la región, que contrasta con lindos amaneceres llaneros, árboles frutales para el goce de los visitantes, así mismo hermosos senderos y diferentes espacios de descanso, contamos con amplias y cómodas habitaciones para su disfrute, además de un excelente equipo humano que brinda más que hospitalidad un acompañamiento especial a nuestros clientes.
                   </p>
                   <ul className="gap-6 mt-8 md:grid md:grid-cols-2">
                     {['Jacuzzi', 'Confort', 'atencion personalizada', 'discresion', 'Lorem Ipsum'].map((item, index) => <li key={index} className="mt-6 lg:mt-0">

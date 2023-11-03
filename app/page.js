@@ -74,12 +74,12 @@ export default function Home() {
         <section id='faq'>
           <Faq data={faq} />
         </section>
-        <DivImg data={{img:'/Images/img2.JPG'}}/>
+        <DivImg data={{img:'/Images/capilla2.jpg'}}/>
         <section className='w-full'>
           {/* Los dos titulos siguientes son para informar a los vistantes de lo que comentan nuestros huespedes y porque elegirnos */}
           <h2 className='text-3xl font-bold text-center w-max mx-auto flex'>Experiencias Inolvidables</h2>
           <p className='text-center mb-8'>Descubre las Historias que nos Hacen Especiales</p>
-          <div id='comments' className='flex  gap-8 max-w-7xl w-full overflow-hidden overflow-x-scroll p-4 mx-auto'>
+          <div id='comments' className='flex  gap-8 max-w-7xl w-full overflow-hidden overflow-x-scroll p-4 mx-auto scrollbar-none'>
             {comments.map((comment, index) => <Comments data={comment} key={index} />)}
           </div>
         </section>

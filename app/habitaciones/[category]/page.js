@@ -8,7 +8,7 @@ export async function generateStaticParams() {
 }
 
 async function getData(id) {
-    const servicios = await fetch('http://localhost:3000/cabanas.json');
+    const servicios = await fetch('http://localhost:3000/cabanas.json' , {cache:'no-cache'});
     const data = await servicios.json();
     return data.find((item) => item.id === id);;
 }

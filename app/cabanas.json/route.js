@@ -5,19 +5,19 @@ export async function GET() {
         [
             {
                 category: "100",
-                title:'Cabaña 100',
+                title: 'Cabaña 100',
                 id: '100',
                 gallery: [
                     {
-                        img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                        img: '/Images/habitaciones/100/_DSC5500.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                        img: '/Images/habitaciones/100/_DSC5518.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                        img: '/Images/habitaciones/100/_DSC5520.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                 ],
@@ -28,18 +28,18 @@ export async function GET() {
                         title: "HABITACION 101",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/100/_DSC9730.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/100/_DSC5518.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/100/_DSC5520.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (2)",
@@ -55,18 +55,18 @@ export async function GET() {
                         title: "HABITACION 102-103-104-105",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/100/_DSC9730.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/100/_DSC5518.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/100/_DSC5520.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -78,23 +78,21 @@ export async function GET() {
                     }
                 ]
             },
-
-
             {
                 category: "200",
-                title:'Cabaña 200',
+                title: 'Cabaña 200',
                 id: '200',
                 gallery: [
                     {
-                        img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                        img: '/Images/habitaciones/200/_DSC5546.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                        img: '/Images/habitaciones/200/_DSC5553.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                        img: '/Images/habitaciones/200/_DSC5558.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                 ],
@@ -105,18 +103,18 @@ export async function GET() {
                         title: "HABITACION 201",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/200/_DSC5546.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/200/_DSC5553.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/200/_DSC5558.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -132,18 +130,18 @@ export async function GET() {
                         title: "HABITACION 202",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/200/_DSC5546.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/200/_DSC5553.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/200/_DSC5558.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -159,18 +157,18 @@ export async function GET() {
                         title: "HABITACION 203",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/200/_DSC5546.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/200/_DSC5553.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/200/_DSC5558.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -186,18 +184,18 @@ export async function GET() {
                         title: "HABITACION 204",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/200/_DSC5546.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/200/_DSC5553.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/200/_DSC5558.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -210,21 +208,20 @@ export async function GET() {
                     }
                 ]
             },
-
             {
                 category: "300",
-                title:'Cabaña 300',
+                title: 'Cabaña 300',
                 gallery: [
                     {
-                        img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                        img: '/Images/habitaciones/300/_DSC5584.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                        img: '/Images/habitaciones/300/_DSC5611.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                        img: '/Images/habitaciones/300/_DSC5612.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                 ],
@@ -236,18 +233,18 @@ export async function GET() {
                         title: "HABITACION 301",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/300/_DSC5584.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/300/_DSC5611.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/300/_DSC5612.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (3)",
@@ -263,18 +260,18 @@ export async function GET() {
                         title: "HABITACION 302",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/300/_DSC5584.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/300/_DSC5611.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/300/_DSC5612.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Camas Dobles (2)",
                             "Camas Sencillas (2)",
@@ -290,18 +287,18 @@ export async function GET() {
                         title: "HABITACION 303",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/300/_DSC5584.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/300/_DSC5611.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/300/_DSC5612.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (3)",
@@ -317,18 +314,18 @@ export async function GET() {
                         title: "HABITACION 304",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/300/_DSC5584.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/300/_DSC5611.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/300/_DSC5612.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Camas Dobles (2)",
                             "Camas Sencillas (1)",
@@ -344,18 +341,18 @@ export async function GET() {
                         title: "HABITACION 305",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/300/_DSC5584.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/300/_DSC5611.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/300/_DSC5612.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -371,18 +368,18 @@ export async function GET() {
                         title: "HABITACION 306",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/300/_DSC5584.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/300/_DSC5611.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/300/_DSC5612.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -398,18 +395,18 @@ export async function GET() {
                         title: "HABITACION 307",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/300/_DSC5584.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/300/_DSC5611.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/300/_DSC5612.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -425,18 +422,18 @@ export async function GET() {
                         title: "HABITACION 308",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/300/_DSC5584.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/300/_DSC5611.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/300/_DSC5612.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -452,18 +449,18 @@ export async function GET() {
                         title: "HABITACION 309",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/300/_DSC5584.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/300/_DSC5611.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/300/_DSC5612.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -479,18 +476,18 @@ export async function GET() {
                         title: "HABITACION 310",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/300/_DSC5584.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/300/_DSC5611.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/300/_DSC5612.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -503,21 +500,20 @@ export async function GET() {
                     }
                 ]
             },
-
             {
                 category: "400",
-                title:'Cabaña 400',
+                title: 'Cabaña 400',
                 gallery: [
                     {
-                        img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                        img: '/Images/habitaciones/400/_DSC9877.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                        img: '/Images/habitaciones/400/_DSC9881.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                        img: '/Images/habitaciones/400/_DSC9889.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                 ],
@@ -529,18 +525,18 @@ export async function GET() {
                         title: "HABITACION 401",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/400/_DSC9877.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/400/_DSC9881.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/400/_DSC9889.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -554,18 +550,18 @@ export async function GET() {
                         title: "HABITACION 402",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/400/_DSC9877.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/400/_DSC9881.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/400/_DSC9889.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -580,18 +576,18 @@ export async function GET() {
                         title: "HABITACION 403",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/400/_DSC9877.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/400/_DSC9881.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/400/_DSC9889.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -607,18 +603,18 @@ export async function GET() {
                         title: "HABITACION 404",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/400/_DSC9877.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/400/_DSC9881.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/400/_DSC9889.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -632,18 +628,18 @@ export async function GET() {
             },
             {
                 category: "500",
-                title:'Cabaña 500',
+                title: 'Cabaña 500',
                 gallery: [
                     {
-                        img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                        img: '/Images/habitaciones/500/_DSC5573.jpg',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                        img: '/Images/habitaciones/500/_DSC5583.jpg',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                        img: '/Images/habitaciones/500/_DSC5594.jpg',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                 ],
@@ -655,18 +651,18 @@ export async function GET() {
                         title: "HABITACION 501",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -682,18 +678,18 @@ export async function GET() {
                         title: "HABITACION 502",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -707,18 +703,18 @@ export async function GET() {
                         title: "HABITACION 503",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -732,18 +728,18 @@ export async function GET() {
                         title: "HABITACION 504",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -757,18 +753,18 @@ export async function GET() {
                         title: "HABITACION 505",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -782,18 +778,18 @@ export async function GET() {
                         title: "HABITACION 506",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -807,18 +803,18 @@ export async function GET() {
                         title: "HABITACION 507",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -833,18 +829,18 @@ export async function GET() {
                         title: "HABITACION 508",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -859,18 +855,18 @@ export async function GET() {
                         title: "HABITACION 509",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -885,18 +881,18 @@ export async function GET() {
                         title: "HABITACION 510",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -911,18 +907,18 @@ export async function GET() {
                         title: "HABITACION 511",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -936,18 +932,18 @@ export async function GET() {
                         title: "HABITACION 512",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "TV",
@@ -961,18 +957,18 @@ export async function GET() {
                         title: "HABITACION 513",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -987,18 +983,18 @@ export async function GET() {
                         title: "HABITACION 514",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (2)",
@@ -1013,18 +1009,18 @@ export async function GET() {
                         title: "HABITACION 515",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Cama Doble",
                             "Camas Sencillas (1)",
@@ -1039,18 +1035,18 @@ export async function GET() {
                         title: "HABITACION 516",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Camas Dobles (2)",
                             "Camas Sencillas (3)",
@@ -1065,18 +1061,18 @@ export async function GET() {
                         title: "HABITACION 517",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Camas Dobles (4)",
                             "TV",
@@ -1090,18 +1086,18 @@ export async function GET() {
                         title: "HABITACION 518",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/room1/_DSC9730.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9734.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/room1/_DSC9732.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.jpg',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
-                         ],
+                        ],
                         items: [
                             "Camas Dobles (2)",
                             "Camas Sencillas (2)",

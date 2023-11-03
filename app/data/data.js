@@ -5,9 +5,9 @@ export const contacto = {
     maps: 'https://goo.gl/maps/LuhqwsdWL4TLAoTs7',
 }
 export const social = [
+    { social: 'instagram', url: 'https://www.instagram.com/monterreyloslagos/', svg: '/svg/instagram.svg' },
     { social: 'facebook', url: 'https://www.facebook.com/centrovacacionalloslagos', svg: '/svg/facebook.svg' },
     { social: 'whatsapp', url: `https://api.whatsapp.com/send/?phone=${contacto.telefono}`, svg: '/svg/whatsapp.svg' },
-    { social: 'instagram', url: 'https://www.instagram.com/monterreyloslagos/', svg: '/svg/instagram.svg' },
 ]
 
 export const nosotros = [
@@ -81,28 +81,28 @@ export const principios = [
 export const habitaciones = [
     {
         title: 'Habitación 1',
-        text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera, ventilador, wifi, parqueadero y desayuno incluido.',
+        text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera, , wifi, parqueadero y desayuno incluido.',
         img1: '/Images/habitaciones/room1/_DSC9730.jpg',
         img2: '/Images/habitaciones/room1/_DSC9732.jpg',
         img3: '/Images/habitaciones/room1/_DSC9734.jpg',
     },
     {
         title: 'Habitación 2',
-        text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera, ventilador, wifi, parqueadero y desayuno incluido.',
+        text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera,  wifi, parqueadero y desayuno incluido.',
         img1: '/Images/habitaciones/room2/_DSC9745.jpg',
         img2: '/Images/habitaciones/room2/_DSC9748.jpg',
         img3: '/Images/habitaciones/room2/_DSC9745.jpg',
     },
     {
         title: 'Habitación 3',
-        text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera, ventilador, wifi, parqueadero y desayuno incluido.',
+        text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera,  wifi, parqueadero y desayuno incluido.',
         img1: '/Images/habitaciones/room3/_DSC9744.jpg',
         img2: '/Images/habitaciones/room3/_DSC9751.jpg',
         img3: '/Images/habitaciones/room3/_DSC9752.jpg',
     },
     {
         title: 'Habitación 4',
-        text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera, ventilador, wifi, parqueadero y desayuno incluido.',
+        text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera,  wifi, parqueadero y desayuno incluido.',
         img1: '/Images/habitaciones/room4/_DSC9761.jpg',
         img2: '/Images/habitaciones/room4/_DSC9763.jpg',
         img3: '/Images/habitaciones/room4/_DSC9764.jpg',

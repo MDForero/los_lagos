@@ -26,6 +26,7 @@ const Nav = ({ nav }) => {
     }, [])
 
     return (<>
+    
         <nav className={'w-full  h-14 md:h-fit ' + (fixed ? 'fixed top-0 right-0 bg-blue-lagos z-50' : 'absolute top-0 right-0  z-50')}>
             <div className='relative mx-auto lg:w-fit w-full '>
                 <ul className='hidden lg:flex py-4 z-50 gap-8 '>

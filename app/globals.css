@@ -189,87 +189,7 @@
     transform: rotate(180deg);
 }
 
-.social {
-    display: flex;
 
-    height: 70px;
-    width: 270px;
-}
-
-.social svg {
-    position: absolute;
-    display: flex;
-    width: 40%;
-    height: 50%;
-    font-size: 24px;
-    font-weight: 700;
-    opacity: 1;
-    transition: opacity 0.25s;
-    z-index: 2;
-    cursor: pointer;
-}
-
-.social .social-link1,
-.social .social-link2,
-.social .social-link3,
-.social .social-link4 {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
-    width: 30%;
-    color: whitesmoke;
-    text-decoration: none;
-    transition: 0.25s;
-    border-radius: 100%;
-}
-
-.social svg {
-    transform: scale(1);
-}
-
-.social .social-link1:hover {
-    background: #f09433;
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
-    animation: bounce_613 0.4s linear;
-}
-
-.social .social-link2:hover {
-    background-color: #00ccff;
-    animation: bounce_613 0.4s linear;
-}
-
-.social .social-link3:hover {
-    background-color: #5865f2;
-    animation: bounce_613 0.4s linear;
-}
-
-.social .social-link4:hover {
-    background-color: #12a50b;
-    animation: bounce_613 0.4s linear;
-}
-
-@keyframes bounce_613 {
-    40% {
-        transform: scale(1.4);
-    }
-
-    60% {
-        transform: scale(0.8);
-    }
-
-    80% {
-        transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(0.7);
-    }
-}
 
 .cardImage:hover>.barraExp {
     width: 0%;
@@ -380,10 +300,9 @@
 }
 
 .social {
-    display: flex;
-    gap: 80px;
-    height: 70px;
-    width: 450px;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
   }
   
   .social svg {
@@ -427,7 +346,7 @@
   }
   
   .social .social-link2:hover {
-    background-color: #00ccff;
+    background-color: #0866ff;
     animation: bounce_613 0.4s linear;
   }
   
@@ -458,3 +377,26 @@
       transform: scale(1);
     }
   }
+
+
+/* Agrega un scrollbar con bordes redondeados de un grosor de 3px */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 3px;
+    border: 3px solid #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    border: 3px solid #fff;
+}

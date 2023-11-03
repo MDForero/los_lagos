@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Faq = ({data}) => {
+const Faq = ({ data }) => {
     return (
 
         <div className="max-w-screen-xl p-8 mx-auto">
@@ -8,13 +8,16 @@ const Faq = ({data}) => {
                 Preguntas Frecuentes
             </h2>
             <ul className="flex flex-wrap items-start gap-8">
-               {data.map((item, index)=> <li key={index} className="lg:w-2/5 w-full p-2">
-                    <p className="text-lg font-medium leading-6 text-gray-900">
-                        {item.quest}
-                    </p>
-                    <p className="mt-2 text-base leading-6 text-gray-500">
-                        {item.answ}
-                    </p>
+                {data.map((item, index) => <li key={index} className="lg:w-2/5 w-full p-2">
+                    <details>
+
+                        <summary className="text-lg font-medium leading-6 text-gray-900">
+                            {item.quest}
+                        </summary>
+                        <p className="mt-2 text-base leading-6 text-gray-500">
+                            {item.answ}
+                        </p>
+                    </details>
                 </li>)}
             </ul>
         </div>

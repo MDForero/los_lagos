@@ -4,6 +4,22 @@ import Link from 'next/link'
 import { contacto, social } from '../data/data'
 import Image from 'next/image'
 
+ const politicas = [
+    {
+        name: 'Políticas sociales',
+        url:'/politica-social'
+
+    },
+    {
+        name: 'Reservas',
+        url:'/politica-reservas'
+    },
+    {
+        name: 'Términos y condiciones',
+        url:'/terminos-condiciones'
+    },
+ ]
+
 const Footer = () => {
     return (<>
         <footer className="bg-blue-lagos  pt-4 pb-8 xl:pt-8">
@@ -44,9 +60,9 @@ const Footer = () => {
                                 Políticas y condiciones
                             </h2>
                             <ul>
-                                {['Políticas', 'Reservas', 'Términos y Condiciones', 'Reglamento'].map((item, index) => <li key={index} className="mb-4 transition-colors font-medium duration-200 hover:text-gray-100 ">
-                                    <a href="#">
-                                        {item}
+                                {politicas.map((item) => <li key={item.name} className="mb-4 transition-colors font-medium duration-200 hover:text-gray-100 ">
+                                <a href={item.url}>
+                                        {item.name}
                                     </a>
                                 </li>)}
 
@@ -80,6 +96,9 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
+            </div>
+            <div class="text-center pt-10 sm:pt-12 font-light flex items-center justify-center text-white">
+                <p>Desarrollado por <a href='https://www.facebook.com/DyDtech23'>D&D tech</a></p>
             </div>
         </footer>
     </>

@@ -4,7 +4,7 @@ import Link from "next/link"
 import { nextResponse } from "next/server"
 
 export async function generateStaticParams() {
-    const data = await fetch('http://localhost:3000/cabanas.json', ).then((res) => res.json())
+    const data = await fetch('http://localhost:3000/cabanas.json').then((res) => res.json())
     const rooms = data.map((item) => item.rooms).flat().map(item => item.id)
     return rooms.map((room) => ({ category: (parseInt(room) - parseInt(room.slice(-2))).toString(), room: room }))
 }
@@ -23,7 +23,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 export default async function Page({ params }) {
     console.log(params)
     const { category, room } = params
-    const data = await fetch('http://localhost:3000/cabanas.json' , {cache:'no-cache'}).then((res) => res.json())
+    const data = await fetch('http://localhost:3000/cabanas.json' ).then((res) => res.json())
     const roomData = data.find((item) => item.id === category)?.rooms.find((item) => item.id === room)
     console.log(roomData)
         return <>

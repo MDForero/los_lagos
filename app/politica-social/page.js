@@ -1,6 +1,6 @@
 import Banner from "../components/Banner";
 
-export default function () {
+export default function page () {
     return <>
         <Banner title={'POLÍTICA DE SOSTENIBILIDAD Y RESPONSABILIDAD SOCIAL'} />
             < section className="max-w-7xl mx-auto text-justify tracking-wide p-4 leading-loose"><p><span className="font-semibold">HOTEL LOS LAGOS CENTRO VACACIONAL DR SAS</span>, confortable y acogedor, dedicado primordialmente al servicio de nuestros huéspedes en el cumplimiento de sus necesidades y expectativas, buscamos la integración de los valores y principios asociados al desarrollo sostenible en nuestros procesos de negocio y en relación con todos nuestros grupos de interés. Creemos que la sostenibilidad es el elemento clave que permitirá que el turismo siga siendo el motor de la economía en la región. Es por esto, que nos comprometemos a:</p>

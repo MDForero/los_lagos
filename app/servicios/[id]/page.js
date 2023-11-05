@@ -19,7 +19,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 
 
 export default async function Page({ params }) {
-    const data = await fetch('http://localhost:3000/data.json', {cache: 'no-cache'}).then((res) => res.json())
+    const data = await fetch('http://localhost:3000/data.json').then((res) => res.json())
     const servicio = data?.find((item) => item.id === params.id)
     return <>
         <main className="h-[800px] w-full relative">

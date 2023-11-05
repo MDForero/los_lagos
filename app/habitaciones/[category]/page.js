@@ -3,12 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 export async function generateStaticParams() {
-    const data = await fetch('http://localhost:3000/cabanas.json', { cache: "no-cache" }).then((res) => res.json())
+    const data = await fetch('http://localhost:3000/cabanas.json').then((res) => res.json())
     return data
 }
 
 async function getData(id) {
-    const servicios = await fetch('http://localhost:3000/cabanas.json' , {cache:'no-cache'});
+    const servicios = await fetch('http://localhost:3000/cabanas.json');
     const data = await servicios.json();
     return data.find((item) => item.id === id);;
 }
@@ -34,7 +34,7 @@ export default async function Page({ params }) {
             </div>
         </main>
         <div>
-        <p className="text-justify max-w-5xl mx-auto text-xl px-10 pt-12">{data.description}</p>
+        <p className="text-justify max-w-5xl mx-auto text-xl px-10 pt-12">{data?.description}</p>
         </div>
         <section className='flex flex-wrap lg:gap-12 gap-4 max-w-7xl w-full mx-auto  justify-evenly mt-24'>
             {data?.rooms.map((room, index) => {

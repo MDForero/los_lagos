@@ -16,8 +16,8 @@ export const metadata ={
 export default function Home() {
   return (
     <div>
-      <video className='h-[700px] lg:h-[800px] w-full object-cover' autoPlay muted loop>
-        <source src="/202309161732.mp4" type="video/mp4" />
+      <video className='w-full lg:w-fit mx-auto lg:h-screen  object-cover' autoPlay muted loop poster='/Images/_DJI0063.JPG'>
+        <source src="/video-lagos-lq.mp4" type="video/mp4" />
       </video>
       <div className='flex flex-col items-center gap-44'>
         <section id='cta'>

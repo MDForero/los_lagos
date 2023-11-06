@@ -8,6 +8,13 @@ async function getServicio() {
     return data;
 }
 
+export const metadata = {
+    title: "Servicios",
+    description: "Servicios",
+    keywords: "Servicios",
+}
+
+
 export default async function page (){
     const servicios = await getServicio();
     return <div>

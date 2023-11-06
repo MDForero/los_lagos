@@ -1,4 +1,11 @@
 import Banner from '@/app/components/Banner'
+
+export const metadata = {
+    title: "Términos y condiciones",
+    description: "Términos y condiciones",
+    keywords: "Términos y condiciones",
+}
+
 export default function page() {
     return (
         <>

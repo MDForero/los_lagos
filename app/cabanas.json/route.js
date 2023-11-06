@@ -28,7 +28,7 @@ export async function GET() {
                         title: "HABITACION 101",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/100/_DSC9730.JPG',
+                                img: '/Images/habitaciones/100/_DSC5500.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
@@ -55,7 +55,7 @@ export async function GET() {
                         title: "HABITACION 102-103-104-105",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/100/_DSC9730.JPG',
+                                img: '/Images/habitaciones/100/_DSC5500.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
@@ -631,15 +631,15 @@ export async function GET() {
                 title: 'Cabaña 500',
                 gallery: [
                     {
-                        img: '/Images/habitaciones/500/_DSC5573.jpg',
+                        img: '/Images/habitaciones/500/_DSC5573.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/500/_DSC5583.jpg',
+                        img: '/Images/habitaciones/500/_DSC5583.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                     {
-                        img: '/Images/habitaciones/500/_DSC5594.jpg',
+                        img: '/Images/habitaciones/500/_DSC5594.JPG',
                         alt: 'imagen por defecto para las habitaciones'
                     },
                 ],
@@ -651,15 +651,15 @@ export async function GET() {
                         title: "HABITACION 501",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -678,15 +678,15 @@ export async function GET() {
                         title: "HABITACION 502",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -703,15 +703,15 @@ export async function GET() {
                         title: "HABITACION 503",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -728,15 +728,15 @@ export async function GET() {
                         title: "HABITACION 504",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -753,15 +753,15 @@ export async function GET() {
                         title: "HABITACION 505",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -778,15 +778,15 @@ export async function GET() {
                         title: "HABITACION 506",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -803,15 +803,15 @@ export async function GET() {
                         title: "HABITACION 507",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -829,15 +829,15 @@ export async function GET() {
                         title: "HABITACION 508",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -855,15 +855,15 @@ export async function GET() {
                         title: "HABITACION 509",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -881,15 +881,15 @@ export async function GET() {
                         title: "HABITACION 510",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -907,15 +907,15 @@ export async function GET() {
                         title: "HABITACION 511",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -932,15 +932,15 @@ export async function GET() {
                         title: "HABITACION 512",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -957,15 +957,15 @@ export async function GET() {
                         title: "HABITACION 513",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -983,15 +983,15 @@ export async function GET() {
                         title: "HABITACION 514",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -1009,15 +1009,15 @@ export async function GET() {
                         title: "HABITACION 515",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -1035,15 +1035,15 @@ export async function GET() {
                         title: "HABITACION 516",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -1061,15 +1061,15 @@ export async function GET() {
                         title: "HABITACION 517",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],
@@ -1086,15 +1086,15 @@ export async function GET() {
                         title: "HABITACION 518",
                         gallery: [
                             {
-                                img: '/Images/habitaciones/500/_DSC5573.jpg',
+                                img: '/Images/habitaciones/500/_DSC5573.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5583.jpg',
+                                img: '/Images/habitaciones/500/_DSC5583.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                             {
-                                img: '/Images/habitaciones/500/_DSC5594.jpg',
+                                img: '/Images/habitaciones/500/_DSC5594.JPG',
                                 alt: 'imagen por defecto para las habitaciones'
                             },
                         ],

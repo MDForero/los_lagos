@@ -1,5 +1,12 @@
 import Banner from "../components/Banner";
 
+export const metadata = {
+    title: "Política de sostenibilidad y responsabilidad social",
+    description: "Política de sostenibilidad y responsabilidad social",
+    keywords: "Política de sostenibilidad y responsabilidad social",
+}
+
+
 export default function page () {
     return <>
         <Banner title={'POLÍTICA DE SOSTENIBILIDAD Y RESPONSABILIDAD SOCIAL'} />

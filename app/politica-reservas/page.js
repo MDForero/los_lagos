@@ -1,5 +1,12 @@
 import Banner from '@/app/components/Banner';
 
+export const metadata = {
+    title: "Política de reservas",
+    description: "Política de reservas",
+    keywords: "Política de reservas",
+}
+
+
 export default function Page() {
     return <>
     <Banner fondo={'/Images/fondos/habitaciones.jpg'} title={'Reservas'} />

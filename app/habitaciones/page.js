@@ -6,6 +6,13 @@ async function getCabanas (){
     const res = await fetch('http://localhost:3000/cabanas.json').then((res) => res.json())
     return res
 }
+
+export const metadata = {
+    title: "Habitaciones",
+    description: "Habitaciones",
+    keywords: "Habitaciones",
+}
+
 export default async function page (){
     const data = await getCabanas()
     return <>

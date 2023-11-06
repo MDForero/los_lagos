@@ -3,11 +3,12 @@ import fs from 'fs'
 import path from 'path'
 import Image from 'next/image'
 
-// Ruta de la carpeta que contiene las imágenes
+export const metadata = {
+    title: "Galeria",
+    description: "Galeria",
+    keywords: "Galeria",
+}
 
-// Función para obtener un array de nombres de archivo de imágenes en la carpeta
-
-// Obtén el array de nombres de archivo de imágenes
 
 
 const carpetaImagenes = './public/Images/';

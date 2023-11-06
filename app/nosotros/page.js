@@ -4,6 +4,13 @@ import { nosotros, principios, team, valores } from '../data/data'
 import Team from '../components/Team'
 import CardValores from '../components/CardValores'
 
+export const metadata = {
+    title: "Nosotros",
+    description: "Nosotros",
+    keywords: "Nosotros",
+}
+
+
 export default function page() {
     return <div className=' flex flex-col justify-center items-center gap-28 mb-28'>
         <Banner fondo={'/Images/fondos/nosotros.jpg'} />

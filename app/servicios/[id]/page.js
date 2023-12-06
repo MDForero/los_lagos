@@ -2,13 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export async function generateStaticParams() {
-    const posts = await fetch('http://localhost:3000/data.json').then((res) => res.json())
+    const posts = await fetch('http://localhost:3000/data.json', {cache:'reload'}).then((res) => res.json())
     return posts.map((post) => ({ id: post.id }))
 }
 
 export async function generateMetadata({ params, searchParams }, parent) {
     const id = params.id
-    const data = await fetch('http://localhost:3000/data.json').then((res) => res.json())
+    const data = await fetch('http://localhost:3000/data.json',{cache:'reload'}).then((res) => res.json())
     const servicio = data?.find((item) => item.id === id)
     return {
         title: servicio?.title,
@@ -19,14 +19,14 @@ export async function generateMetadata({ params, searchParams }, parent) {
 
 
 export default async function Page({ params }) {
-    const data = await fetch('http://localhost:3000/data.json').then((res) => res.json())
+    const data = await fetch('http://localhost:3000/data.json', {cache:'no-store'}).then((res) => res.json())
     const servicio = data?.find((item) => item.id === params.id)
     return <>
         <main className="h-[800px] w-full relative">
             <Image loading='lazy' src={servicio?.gallery[0].img} alt={servicio?.gallery[0].alt} className="w-full h-full object-cover" width={0} height={0} />
             <div className="absolute top-0 bottom-0 right-0 left-0 flex flex-col justify-center items-center bg-black/30">
                 <Image loading='lazy' src='/logo-dark.png' width={0} height={0} className='w-52 h-52' />
-                <p className="text-white lg:text-5xl sm:text-xl font-bold capitalize"><span className="text-white font-bold capitalize">{servicio?.title.toLocaleLowerCase()}</span> | <Link href='/servicios' className="text-white hover:text-blue-lagos font-bold capitalize">Servicios</Link></p>
+                <p className="text-white lg:text-5xl sm:text-xl font-bold capitalize"><span className="text-white font-bold capitalize">{servicio?.id.toLocaleLowerCase()}</span> | <Link href='/servicios' className="text-white hover:text-blue-lagos font-bold capitalize">Servicios</Link></p>
             </div>
         </main>
         <section id='cta'>

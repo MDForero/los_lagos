@@ -16,7 +16,7 @@ export const metadata ={
 export default function Home() {
   return (
     <div>
-      <video className='w-full lg:w-fit mx-auto lg:h-screen  object-cover' autoPlay muted loop poster='/Images/_DJI0063.JPG'>
+      <video className='w-full mx-auto lg:h-screen  object-cover lg:object-fill' autoPlay muted loop poster='/Images/_DJI0063.JPG'>
         <source src="/video-lagos-lq.mp4" type="video/mp4" />
       </video>
       <div className='flex flex-col items-center gap-44'>
@@ -28,14 +28,14 @@ export default function Home() {
                   <p className="text-base font-semibold leading-6 text-indigo-500 uppercase">
                     ¿Por qué elegirnos?
                   </p>
-                  <h4 className="mt-2 text-2xl font-extrabold leading-8 text-gray-900 :text-3xl sm:leading-9">
-                    Un lugar para todos
-                  </h4>
+                  <h1 className="mt-2 text-2xl font-extrabold leading-8 text-gray-900 :text-3xl sm:leading-9">
+                  Descubre la Experiencia Única de Monterrey Casanare en el Hotel Los Lagos Centro Vacacional
+                  </h1>
                   <p className="mt-4 text-lg leading-6 text-gray-500 ">
-                  Somos una empresa de legado familiar, en donde trabajamos  incansablemente para brindar a nuestros clientes espacios agradables en el que puedan vivir experiencias diferentes, rodeados de naturaleza y con una arquitectura especialmente diseñada para mantener la esencia de la región, que contrasta con lindos amaneceres llaneros, árboles frutales para el goce de los visitantes, así mismo hermosos senderos y diferentes espacios de descanso, contamos con amplias y cómodas habitaciones para su disfrute, además de un excelente equipo humano que brinda más que hospitalidad un acompañamiento especial a nuestros clientes.
+                  Bienvenido a nuestro exclusivo Hotel Los Lagos Centro Vacacional, donde la majestuosidad de Monterrey Casanare se encuentra con la hospitalidad incomparable. Sumérgete en la belleza natural de la región y disfruta de una estancia inolvidable con todas las comodidades que ofrecemos.
                   </p>
                   <ul className="gap-6 mt-8 md:grid md:grid-cols-2">
-                    {['Jacuzzi', 'Confort', 'atencion personalizada', 'discresion', 'Lorem Ipsum'].map((item, index) => <li key={index} className="mt-6 lg:mt-0">
+                    {['Jacuzzi', 'Piscina', 'Bar', 'Restaurante', 'Salon de eventos', 'Zona de juegos' ].map((item, index) => <li key={index} className="mt-6 lg:mt-0">
                       <div className="flex">
                         <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full  drark:bg-transparent">
                           <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">

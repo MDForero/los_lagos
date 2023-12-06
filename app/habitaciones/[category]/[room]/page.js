@@ -21,11 +21,9 @@ export async function generateMetadata({ params, searchParams }, parent) {
 
 
 export default async function Page({ params }) {
-    console.log(params)
     const { category, room } = params
-    const data = await fetch('http://localhost:3000/cabanas.json' ).then((res) => res.json())
+    const data = await fetch('http://localhost:3000/cabanas.json', {cache:'reload'} ).then((res) => res.json())
     const roomData = data.find((item) => item.id === category)?.rooms.find((item) => item.id === room)
-    console.log(roomData)
         return <>
             <main className="h-[800px] w-full relative">
                 <Image loading='lazy' src={roomData?.gallery[0].img} alt={roomData?.gallery[0].alt} className="w-full h-full object-cover" width={0} height={0} />

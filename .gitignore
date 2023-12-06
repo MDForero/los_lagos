@@ -41,3 +41,7 @@ next-env.d.ts
 *.pdf
 *.PDF
 *.mp4
+*.jpg
+*.jpeg
+*.png
+*.HEIC

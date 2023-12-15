@@ -1,6 +1,5 @@
 import Banner from '../components/Banner'
 import Servicios from '../components/Servicios'
-import { servicios } from '../data/data'
 
 
 export const metadata = {
@@ -11,7 +10,7 @@ export const metadata = {
 
 
 export default async function page (){
-    const servicios = await fetch('http://localhost:3000/data.json', {cache:'no-store'}).then((res) => res.json())
+    const servicios = await fetch('http://localhost:3000/data.json', {cache:'reload'}).then((res) => res.json())
     return <div>
         <Banner fondo={'/Images/fondos/servicios.jpg'}/>
         <div className='flex flex-wrap lg:gap-12 gap-4 max-w-7xl w-full mx-auto  justify-evenly mt-24'>

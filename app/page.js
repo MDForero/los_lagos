@@ -8,8 +8,8 @@ import { comments, faq, featured, team } from './data/data'
 import DivImg from './components/DivImg'
 
 export const metadata ={
-  title: 'Los Lagos',
-  description: 'Los Lagos es un lugar para todos, donde podras disfrutar de un momento de relajacion y confort, con la mejor atencion personalizada y la discresion que nos caracteriza',
+  title: 'Hotel en Monterrey Casanare Los Lagos Centro Vacacional',
+  description: 'Hotel Los lagos centro vacacional  es un lugar para todos, donde podras disfrutar de un momento de relajacion y confort, con la mejor atencion personalizada y la discresion que nos caracteriza',
   keywords: ['Los Lagos', 'Hotel', 'Jacuzzi', 'Confort', 'Atencion Personalizada', 'Discresion', 'Relax', 'Descanso', 'Habitaciones', 'Servicios', 'Galeria', 'Nosotros', 'Contacto', 'Reservas', 'Politicas', 'Terminos y Condiciones', 'Reglamento'],
 }
 
@@ -29,7 +29,7 @@ export default function Home() {
                     ¿Por qué elegirnos?
                   </p>
                   <h1 className="mt-2 text-2xl font-extrabold leading-8 text-gray-900 :text-3xl sm:leading-9">
-                  Descubre la Experiencia Única de Monterrey Casanare en el Hotel Los Lagos Centro Vacacional
+                  Descubre la Experiencia Única del Hotel en Monterrey Casanare Los Lagos Centro Vacacional 
                   </h1>
                   <p className="mt-4 text-lg leading-6 text-gray-500 ">
                   Bienvenido a nuestro exclusivo Hotel Los Lagos Centro Vacacional, donde la majestuosidad de Monterrey Casanare se encuentra con la hospitalidad incomparable. Sumérgete en la belleza natural de la región y disfruta de una estancia inolvidable con todas las comodidades que ofrecemos.

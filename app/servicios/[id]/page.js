@@ -2,13 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 export async function generateStaticParams() {
-    const posts = await fetch('http://localhost:3000/data.json', {cache:'reload'}).then((res) => res.json())
+    const posts = await fetch('http://loslagosmonterrey.com/data.json' ).then((res) => res.json())
     return posts.map((post) => ({ id: post.id }))
 }
 
 export async function generateMetadata({ params, searchParams }, parent) {
     const id = params.id
-    const data = await fetch('http://localhost:3000/data.json',{cache:'reload'}).then((res) => res.json())
+    const data = await fetch('http://loslagosmonterrey.com/data.json').then((res) => res.json())
     const servicio = data?.find((item) => item.id === id)
     return {
         title: servicio?.title,
@@ -19,7 +19,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 
 
 export default async function Page({ params }) {
-    const data = await fetch('http://localhost:3000/data.json', {cache:'reload'}).then((res) => res.json())
+    const data = await fetch('http://loslagosmonterrey.com/data.json',{cache:'default'}).then((res) => res.json())
     const servicio = data?.find((item) => item.id === params.id)
     return <>
         <main className="h-[800px] w-full relative">

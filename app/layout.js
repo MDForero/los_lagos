@@ -42,9 +42,53 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={inter.className}>
-      
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-YGH8LGGZGH" />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-YGH8LGGZGH');
+        `}
+        </Script>
+
+
         <Nav nav={nav} />
         <div className='relative mb-28 overflow-hidden '>
+          <div id="fb-root"></div>
+
+          <div id="fb-customer-chat" class="fb-customerchat">
+          </div>
+          <Script
+            id="messenger-tag"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `{  var chatbox = document.getElementById('fb-customer-chat');
+                        chatbox.setAttribute("page_id", "301092433595520");
+                        chatbox.setAttribute("attribution", "biz_inbox");}`,
+            }}
+          ></Script>
+          <Script
+            id="messenger-sdk"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `{ window.fbAsyncInit = function() {
+                          FB.init({
+                            xfbml            : true,
+                            version          : 'v18.0'
+                          });
+                        };
+                  
+                        (function(d, s, id) {
+                          var js, fjs = d.getElementsByTagName(s)[0];
+                          if (d.getElementById(id)) return;
+                          js = d.createElement(s); js.id = id;
+                          js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));}`,
+            }}
+          ></Script>
           {children}
         </div>
         <Footer />

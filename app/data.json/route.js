@@ -17,19 +17,19 @@ export async function GET() {
             description: 'Disfruta de la exclusividad de nuestros hoteles con piscina en Monterrey Casanare, donde Hotel Los Lagos Centro Vacacional te invita a relajarte y disfrutar de vistas panorámicas. Nuestras instalaciones están diseñadas para elevar tu experiencia, asegurando que cada momento sea una escapada de lujo.',
             gallery: [
                 {
-                    img: '/Images/piscina1.jpg',
+                    img: '/Images/servicios/piscina/piscina1.jpg',
+                    alt: 'En el hotel los lagos centro vacacional contamos con un grandioso piscina en donde podras disfrutar de un delicioso asado en familia o con amigos.'
+                },
+                {
+                    img: '/Images/servicios/piscina/piscina2.jpg',
+                    alt: 'En el hotel los lagos centro vacacional contamos con un grandioso piscina en donde podras disfrutar de un delicioso asado en familia o con amigos.'
+                },
+                {
+                    img: '/Images/servicios/piscina/piscina3.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina2.jpg',
-                    alt: 'piscina'
-                },
-                {
-                    img: '/Images/piscina3.jpg',
-                    alt: 'piscina'
-                },
-                {
-                    img: '/Images/piscina4.jpg',
+                    img: '/Images/servicios/piscina/piscina.jpg',
                     alt: 'piscina'
                 },
                 {
@@ -81,19 +81,19 @@ export async function GET() {
             description: 'Nuestra zona de juegos es perfecta para los amantes de la diversión. Puedes desafiarte en una partida de ping pong o billar pool, disfrutar de una partida de rana electrónica, probar tus habilidades en la cancha de mini tejo o en la cancha de fútbol, o simplemente relajarte con una partida de futbolito. Tenemos opciones para todos los gustos.',
             gallery: [
                 {
-                    img: '/Images/juegos1.jpg',
+                    img: '/Images/servicios/juegos/juegos1.jpg',
+                    alt: 'En el hotel los lagos centro vacacional contamos con un grandioso zona de juegos en donde podras disfrutar de una partida de ping pong o billar pool, disfrutar de una partida de rana electrónica, probar tus habilidades en la cancha de mini tejo o en la cancha de fútbol, o simplemente relajarte con una partida de futbolito. Tenemos opciones para todos los gustos.'
+                },
+                {
+                    img: '/Images/servicios/juegos/juegos2.jpg',
+                    alt: 'En el hotel los lagos centro vacacional contamos con un grandioso zona de juegos en donde podras disfrutar de una partida de ping pong o billar pool, disfrutar de una partida de rana electrónica, probar tus habilidades en la cancha de mini tejo o en la cancha de fútbol, o simplemente relajarte con una partida de futbolito. Tenemos opciones para todos los gustos.'
+                },
+                {
+                    img: '/Images/servicios/juegos/juegos1.jpg',
                     alt: 'zona de juegos'
                 },
                 {
-                    img: '/Images/juegos2.jpg',
-                    alt: 'zona de juegos'
-                },
-                {
-                    img: '/Images/juegos1.jpg',
-                    alt: 'zona de juegos'
-                },
-                {
-                    img: '/Images/juegos2.jpg',
+                    img: '/Images/servicios/juegos/juegos2.jpg',
                     alt: 'zona de juegos'
                 },
 
@@ -115,19 +115,19 @@ export async function GET() {
             description: 'Relájate y disfruta del sol en nuestras cómodas hamacas, el lugar perfecto para desconectar y recargar energías.',
             gallery: [
                 {
-                    img: '/Images/piscina1.jpg',
+                    img: '/Images/servicios/descanso/WhatsApp-Image-2023-12-15-at-16.06.18.jpeg',
+                    alt: 'En el hotel los lagos centro vacacional contamos con un grandioso en donde podras descansar luego de una tarde agitada en donde tenemos hamacas y chinchorros a la disposicion de nuestros visitantes.'
+                },
+                {
+                    img: '/Images/servicios/descanso/WhatsApp Image 2023-12-15 at 16.06.18 (1).jpeg',
+                    alt: 'En el hotel los lagos centro vacacional contamos con un grandioso en donde podras descansar luego de una tarde agitada en donde tenemos hamacas y chinchorros a la disposicion de nuestros visitantes.'
+                },
+                {
+                    img: '/Images/servicios/piscina/piscina3.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina2.jpg',
-                    alt: 'piscina'
-                },
-                {
-                    img: '/Images/piscina3.jpg',
-                    alt: 'piscina'
-                },
-                {
-                    img: '/Images/piscina4.jpg',
+                    img: '/Images/servicios/piscina/piscina1.jpg',
                     alt: 'piscina'
                 },
                 {
@@ -177,19 +177,19 @@ export async function GET() {
             description: 'Nuestro bar está abierto las 24 horas y ofrece una amplia variedad de bebidas, desde bebidas alcohólicas hasta refrescantes gaseosas y jugos. También tenemos una selección de helados y opciones de snacks para saciar tus antojos en cualquier momento. ¡No te pierdas nuestro exclusivo cóctel "Snap"!',
             gallery: [
                 {
-                    img: '/Images/bar1.jpg',
+                    img: '/Images/servicios/bar/bar1.jpg',
+                    alt: 'En el hotel los lagos centro vacacional contamos con un grandioso bar en donde podras disfrutar de una deliciosa bebida en familia o con amigos.'
+                },
+                {
+                    img: '/Images/servicios/bar/bar2.jpg',
+                    alt: 'En el hotel los lagos centro vacacional contamos con un grandioso bar en donde podras disfrutar de una deliciosa bebida en familia o con amigos.'
+                },
+                {
+                    img: '/Images/servicios/bar/bar3.jpg',
                     alt: 'bar'
                 },
                 {
-                    img: '/Images/bar2.jpg',
-                    alt: 'bar'
-                },
-                {
-                    img: '/Images/bar3.jpg',
-                    alt: 'bar'
-                },
-                {
-                    img: '/Images/bar4.jpg',
+                    img: '/Images/servicios/bar/bar4.jpg',
                     alt: 'bar'
                 },
                 {
@@ -206,19 +206,19 @@ export async function GET() {
             description: 'En nuestra zona de BBQ, promovemos la sostenibilidad. Solo se permite el uso de platos, vasos y utensilios biodegradables o menaje traído por el grupo (no vidrio). Disfruta de una experiencia al aire libre mientras cuidamos el medio ambiente.',
             gallery: [
                 {
-                    img: '/Images/piscina1.jpg',
+                    img: '/Images/servicios/bbq/a600fd08-6f74-4ee8-8e3d-146c7912ef37.jpeg',
+                    alt: 'En el hotel los lagos centro vacacional contamos con un grandioso BBQ para que disfrutes de un delicioso asado en familia o con amigos.'
+                },
+                {
+                    img: '/Images/servicios/descanso/WhatsApp-Image-2023-12-15-at-16.06.18.jpeg',
+                    alt: 'Probando'
+                },
+                {
+                    img: '/Images/servicios/empresarial/IMG-20231129-WA0126.jpg',
                     alt: 'piscina'
                 },
                 {
-                    img: '/Images/piscina2.jpg',
-                    alt: 'piscina'
-                },
-                {
-                    img: '/Images/piscina3.jpg',
-                    alt: 'piscina'
-                },
-                {
-                    img: '/Images/piscina4.jpg',
+                    img: '/Images/servicios/eventos/eventos4.jpg',
                     alt: 'piscina'
                 },
                 {
@@ -273,19 +273,19 @@ export async function GET() {
             gallery: [
                 {
                     img: '/Images/servicios/restaurante/IMG-20231204-WA0038.jpg',
-                    alt: 'piscina'
+                    alt: 'En nuestro restaurante ofrecemos una deliciosa selección de platos para satisfacer todos los paladares. Desde sabores locales hasta opciones internacionales, tenemos algo para todos los gustos. Nuestro equipo de chefs te sorprenderá con su creatividad culinaria.'
                 },
                 {
                     img: '/Images/servicios/restaurante/IMG-20231204-WA0039.jpg',
-                    alt: 'piscina'
+                    alt: 'En nuestro restaurante ofrecemos una deliciosa selección de platos para satisfacer todos los paladares. Desde sabores locales hasta opciones internacionales, tenemos algo para todos los gustos. Nuestro equipo de chefs te sorprenderá con su creatividad culinaria.'
                 },
                 {
                     img: '/Images/servicios/restaurante/IMG-20231204-WA0041.jpg',
-                    alt: 'piscina'
+                    alt: 'En nuestro restaurante ofrecemos una deliciosa selección de platos para satisfacer todos los paladares. Desde sabores locales hasta opciones internacionales, tenemos algo para todos los gustos. Nuestro equipo de chefs te sorprenderá con su creatividad culinaria.'
                 },
                 {
                     img: '/Images/servicios/restaurante/IMG-20231204-WA0051.jpg',
-                    alt: 'piscina'
+                    alt: 'En nuestro restaurante ofrecemos una deliciosa selección de platos para satisfacer todos los paladares. Desde sabores locales hasta opciones internacionales, tenemos algo para todos los gustos. Nuestro equipo de chefs te sorprenderá con su creatividad culinaria.'
                 },
               
             ]
@@ -303,20 +303,20 @@ export async function GET() {
                 description: '¿Necesitas un espacio para tus eventos corporativos o celebraciones especiales? Tenemos la solución. Ofrecemos alquiler de espacios para capacitaciones, eventos relacionados con la Ley 50, días del trabajador, días de la familia, celebraciones de amor y amistad, cumpleaños y más. Nuestro equipo de profesionales te ayudará a organizar tu evento y a hacer que sea un éxito.',
             gallery: [
                 {
-                    img: '/Images/servicios/empresarial/IMG-20231129-WA0011.jpg',
-                    alt: 'piscina'
+                    img: '/Images/servicios/empresarial/IMG-20231129-WA0129.jpg',
+                    alt: 'Contamos con un grandioso espacio para tus eventos corporativos o celebraciones especiales? Tenemos la solución. Ofrecemos alquiler de espacios para capacitaciones, eventos relacionados con la Ley 50, días del trabajador, días de la familia, celebraciones de amor y amistad, cumpleaños y más. Nuestro equipo de profesionales te ayudará a organizar tu evento y a hacer que sea un éxito.'
                 },
                 {
                     img: '/Images/servicios/empresarial/IMG-20231129-WA0044.jpg',
-                    alt: 'piscina'
-                },
-                {
-                    img: '/Images/servicios/empresarial/IMG-20231129-WA0099.jpg',
-                    alt: 'piscina'
+                    alt: 'Contamos con un grandioso espacio para tus eventos corporativos o celebraciones especiales? Tenemos la solución. Ofrecemos alquiler de espacios para capacitaciones, eventos relacionados con la Ley 50, días del trabajador, días de la familia, celebraciones de amor y amistad, cumpleaños y más. Nuestro equipo de profesionales te ayudará a organizar tu evento y a hacer que sea un éxito.'
                 },
                 {
                     img: '/Images/servicios/empresarial/IMG-20231129-WA0126.jpg',
-                    alt: 'piscina'
+                    alt: 'Contamos con un grandioso espacio para tus eventos corporativos o celebraciones especiales? Tenemos la solución. Ofrecemos alquiler de espacios para capacitaciones, eventos relacionados con la Ley 50, días del trabajador, días de la familia, celebraciones de amor y amistad, cumpleaños y más. Nuestro equipo de profesionales te ayudará a organizar tu evento y a hacer que sea un éxito.'
+                },
+                {
+                    img: '/Images/servicios/empresarial/IMG-20231129-WA0099.jpg',
+                    alt: 'Contamos con un grandioso espacio para tus eventos corporativos o celebraciones especiales? Tenemos la solución. Ofrecemos alquiler de espacios para capacitaciones, eventos relacionados con la Ley 50, días del trabajador, días de la familia, celebraciones de amor y amistad, cumpleaños y más. Nuestro equipo de profesionales te ayudará a organizar tu evento y a hacer que sea un éxito.'
                 },
             ]
         },
@@ -332,11 +332,11 @@ export async function GET() {
             gallery: [
                 {
                     img: '/Images/servicios/eventos/eventos1.jpg',
-                    alt: 'eventos'
+                    alt: 'En nuestro salón de eventos. Ya sea para quinceañeras, bodas, graduaciones o fiestas de fin de año, nuestro salón ofrece un ambiente elegante y versátil para hacer que tu evento sea inolvidable.'
                 },
                 {
                     img: '/Images/servicios/eventos/eventos2.jpg',
-                    alt: 'eventos'
+                    alt: 'En nuestro salón de eventos. Ya sea para quinceañeras, bodas, graduaciones o fiestas de fin de año, nuestro salón ofrece un ambiente elegante y versátil para hacer que tu evento sea inolvidable.'
                 },
                 {
                     img: '/Images/servicios/eventos/eventos3.jpg',

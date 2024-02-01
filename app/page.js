@@ -7,7 +7,7 @@ import Faq from './components/Faq'
 import { comments, faq, featured, team } from './data/data'
 import DivImg from './components/DivImg'
 
-export const metadata ={
+export const metadata = {
   title: 'Hotel en Monterrey Casanare Los Lagos Centro Vacacional',
   description: 'Hotel Los lagos centro vacacional  es un lugar para todos, donde podras disfrutar de un momento de relajacion y confort, con la mejor atencion personalizada y la discresion que nos caracteriza',
   keywords: ['Los Lagos', 'Hotel', 'Jacuzzi', 'Confort', 'Atencion Personalizada', 'Discresion', 'Relax', 'Descanso', 'Habitaciones', 'Servicios', 'Galeria', 'Nosotros', 'Contacto', 'Reservas', 'Politicas', 'Terminos y Condiciones', 'Reglamento'],
@@ -29,13 +29,13 @@ export default function Home() {
                     ¿Por qué elegirnos?
                   </p>
                   <h1 className="mt-2 text-2xl font-extrabold leading-8 text-gray-900 :text-3xl sm:leading-9">
-                  Descubre la Experiencia Única del Hotel en Monterrey Casanare Los Lagos Centro Vacacional 
+                    Descubre la Experiencia Única del Hotel en Monterrey Casanare Los Lagos Centro Vacacional
                   </h1>
                   <p className="mt-4 text-lg leading-6 text-gray-500 ">
-                  Bienvenido a nuestro exclusivo Hotel Los Lagos Centro Vacacional, donde la majestuosidad de Monterrey Casanare se encuentra con la hospitalidad incomparable. Sumérgete en la belleza natural de la región y disfruta de una estancia inolvidable con todas las comodidades que ofrecemos.
+                    Bienvenido a nuestro exclusivo Hotel Los Lagos Centro Vacacional, donde la majestuosidad de Monterrey Casanare se encuentra con la hospitalidad incomparable. Sumérgete en la belleza natural de la región y disfruta de una estancia inolvidable con todas las comodidades que ofrecemos.
                   </p>
                   <ul className="gap-6 mt-8 md:grid md:grid-cols-2">
-                    {['Jacuzzi', 'Piscina', 'Bar', 'Restaurante', 'Salon de eventos', 'Zona de juegos' ].map((item, index) => <li key={index} className="mt-6 lg:mt-0">
+                    {['Jacuzzi', 'Piscina', 'Bar', 'Restaurante', 'Salon de eventos', 'Zona de juegos'].map((item, index) => <li key={index} className="mt-6 lg:mt-0">
                       <div className="flex">
                         <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full  drark:bg-transparent">
                           <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
@@ -53,12 +53,12 @@ export default function Home() {
                 <div className=" mt-10 lg:-mx-4 relative-20 lg:mt-0 lg:col-start-1">
                   <div className=" space-y-4">
                     <div className="flex items-end justify-center space-x-4 lg:justify-start">
-                      <Image loading='lazy' className="w-32 rounded-lg shadow-lg md:w-56" width="200" height={0} src="/Images/piscina1.jpg" alt="1" />
-                      <Image loading='lazy' className="w-40 rounded-lg shadow-lg md:w-64" width="260" height={0} src="/Images/bar1.jpg" alt="2" />
+                      <Image loading='lazy' className="w-32 rounded-lg shadow-lg md:w-56" width="200" height={0} src="/Images/servicios/descanso/WhatsApp Image 2023-12-15 at 16.06.18.jpeg" alt="En el hotel los lagos centro vacacional podras disfrutar de un momento de relajacion en nuestra zona de descanso" />
+                      <Image loading='lazy' className="w-40 rounded-lg shadow-lg md:w-64" width="260" height={0} src="/Images/servicios/piscina/piscina.jpg" alt="en el hotel los lagos centro vacacional podras disfrutar de un momento de relajacion en nuestra parque acuatico" />
                     </div>
                     <div className="flex items-start justify-center ml-12 space-x-4 lg:justify-start">
-                      <Image loading='lazy' className="w-24 rounded-lg shadow-lg md:w-40" width="170" height={0} src="/Images/juegos1.jpg" alt="3" />
-                      <Image loading='lazy' className="w-32 rounded-lg shadow-lg md:w-56" width="200" height={0} src="/Images/eventos1.jpg" alt="4" />
+                      <Image loading='lazy' className="w-24 rounded-lg shadow-lg md:w-40" width="170" height={0} src="/Images/servicios/restaurante/IMG-20231204-WA0039.jpg" alt="en el hotel los lagos centro vacacional podras disfrutar de un momento de relajacion en nuestro restaurante" />
+                      <Image loading='lazy' className="w-32 rounded-lg shadow-lg md:w-56" width="200" height={0} src="/Images/servicios/juegos/juegos1.jpg" alt="en el hotel los lagos centro vacacional podras disfrutar de un momento de relajacion en nuestra zona de juegos" />
                     </div>
                   </div>
                 </div>
@@ -66,15 +66,15 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <DivImg data={{img:'/Images/eventos9.jpg'}}/>
+        <DivImg data={{ img: '/Images/eventos9.jpg' }} />
         <section id='featured'>
           <Services />
         </section>
-        <DivImg data={{img:'/Images/_DSC9833.jpg'}}/>
+        <DivImg data={{ img: '/Images/_DSC9833.jpg' }} />
         <section id='faq'>
           <Faq data={faq} />
         </section>
-        <DivImg data={{img:'/Images/capilla2.jpg'}}/>
+        <DivImg data={{ img: '/Images/capilla2.jpg' }} />
         <section className='w-full'>
           {/* Los dos titulos siguientes son para informar a los vistantes de lo que comentan nuestros huespedes y porque elegirnos */}
           <h2 className='text-3xl font-bold text-center w-max mx-auto flex'>Experiencias Inolvidables</h2>

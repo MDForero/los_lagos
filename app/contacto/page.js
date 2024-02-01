@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function page() {
     return <div className='flex flex-col gap-24 justify-center items-center'>
-        <Banner fondo={'/Images/DJI_0049.JPG'} />
+        <Banner fondo={'/Images/fondos/contacto.jpg'} />
 
         <section className='max-w-6xl mx-auto flex gap-12 justify-center items-center flex-wrap'>
             <a href='tel:+573219300020' className='flex flex-col justify-center items-center space-x-3  border-4 bg-blue-lagos shadow-xl w-64 text-center rounded-lg p-4 h-40'>

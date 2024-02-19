@@ -7,7 +7,7 @@ export const contacto = {
 export const social = [
     { social: 'instagram', url: 'https://www.instagram.com/monterreyloslagos/', svg: '/svg/instagram.svg' },
     { social: 'facebook', url: 'https://www.facebook.com/centrovacacionalloslagos', svg: '/svg/facebook.svg' },
-    { social: 'whatsapp', url: `https://api.whatsapp.com/send/?phone=${contacto.telefono}`, svg: '/svg/whatsapp.svg' },
+    { social: 'whatsapp', url: `https://wa.me/${contacto.telefono}`, svg: '/svg/whatsapp.svg' },
 ]
 
 export const nosotros = [

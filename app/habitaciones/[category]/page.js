@@ -3,12 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 export async function generateStaticParams() {
-    const data = await fetch('http://localhost:3000/cabanas.json').then((res) => res.json())
+    const data = await fetch('http://loslagosmonterrey.com/cabanas.json').then((res) => res.json())
     return data
 }
 
 async function getData(id) {
-    const servicios = await fetch('http://localhost:3000/cabanas.json', {cache:"reload"});
+    const servicios = await fetch('http://loslagosmonterrey.com/cabanas.json', {cache:"reload"});
     const data = await servicios.json();
     return data.find((item) => item.id === id);;
 }

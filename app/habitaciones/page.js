@@ -3,7 +3,7 @@ import { habitaciones } from '../data/data'
 import Room from '../components/Room'
 
 async function getCabanas (){
-    const res = await fetch('http://localhost:3000/cabanas.json').then((res) => res.json())
+    const res = await fetch('http://loslagosmonterrey.com/cabanas.json').then((res) => res.json())
     return res
 }
 

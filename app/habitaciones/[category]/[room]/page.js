@@ -4,14 +4,14 @@ import Link from "next/link"
 import { nextResponse } from "next/server"
 
 export async function generateStaticParams() {
-    const data = await fetch('http://localhost:3000/cabanas.json').then((res) => res.json())
+    const data = await fetch('http://loslagosmonterrey.com/cabanas.json').then((res) => res.json())
     const rooms = data.map((item) => item.rooms).flat().map(item => item.id)
     return rooms.map((room) => ({ category: (parseInt(room) - parseInt(room.slice(-2))).toString(), room: room }))
 }
 
 export async function generateMetadata({ params, searchParams }, parent) {
     const { category, room } = params
-    const data = await fetch('http://localhost:3000/cabanas.json').then((res) => res.json())
+    const data = await fetch('http://loslagosmonterrey.com/cabanas.json').then((res) => res.json())
     const roomData = data.find((item) => item.id === category)?.rooms.find((item) => item.id === room)
     return {
         title: roomData?.title,
@@ -22,7 +22,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 
 export default async function Page({ params }) {
     const { category, room } = params
-    const data = await fetch('http://localhost:3000/cabanas.json', {cache:'reload'} ).then((res) => res.json())
+    const data = await fetch('http://loslagosmonterrey.com/cabanas.json', {cache:'reload'} ).then((res) => res.json())
     const roomData = data.find((item) => item.id === category)?.rooms.find((item) => item.id === room)
         return <>
             <main className="h-[800px] w-full relative">
